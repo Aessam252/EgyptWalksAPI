@@ -14,11 +14,12 @@ Models:
 - Authentication and Authorization:
 
 Implemented using ASP.NET Core Identity for secure user management and role-based access control.
+
 ### Design Patterns:
 
 - Repository Pattern.
 - Unit of Work.
-- 
+  
 ### Logging:
 
 - Integrated logging mechanism to track application activities and errors.
