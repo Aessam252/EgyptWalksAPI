@@ -1,0 +1,915 @@
+2024-06-08 01:15:05.850 +03:00 [INF] Logger has been configured.
+2024-06-08 01:15:08.272 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 01:15:08.579 +03:00 [FTL] Application startup exception
+System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' property must be set in 'UseExceptionHandler()'. Alternatively, set one of the aforementioned properties in 'Startup.ConfigureServices' as follows: 'services.AddExceptionHandler(options => { ... });' or configure to generate a 'ProblemDetails' response in 'service.AddProblemDetails()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener, IEnumerable`1 exceptionHandlers, IMeterFactory meterFactory, IProblemDetailsService problemDetailsService)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2024-06-08 01:15:08.811 +03:00 [ERR] Hosting failed to start
+System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' property must be set in 'UseExceptionHandler()'. Alternatively, set one of the aforementioned properties in 'Startup.ConfigureServices' as follows: 'services.AddExceptionHandler(options => { ... });' or configure to generate a 'ProblemDetails' response in 'service.AddProblemDetails()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener, IEnumerable`1 exceptionHandlers, IMeterFactory meterFactory, IProblemDetailsService problemDetailsService)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-06-08 01:17:03.872 +03:00 [INF] Logger has been configured.
+2024-06-08 01:17:04.391 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 01:17:04.499 +03:00 [FTL] Application startup exception
+System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' property must be set in 'UseExceptionHandler()'. Alternatively, set one of the aforementioned properties in 'Startup.ConfigureServices' as follows: 'services.AddExceptionHandler(options => { ... });' or configure to generate a 'ProblemDetails' response in 'service.AddProblemDetails()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener, IEnumerable`1 exceptionHandlers, IMeterFactory meterFactory, IProblemDetailsService problemDetailsService)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2024-06-08 01:17:04.542 +03:00 [ERR] Hosting failed to start
+System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' property must be set in 'UseExceptionHandler()'. Alternatively, set one of the aforementioned properties in 'Startup.ConfigureServices' as follows: 'services.AddExceptionHandler(options => { ... });' or configure to generate a 'ProblemDetails' response in 'service.AddProblemDetails()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener, IEnumerable`1 exceptionHandlers, IMeterFactory meterFactory, IProblemDetailsService problemDetailsService)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-06-08 01:19:44.535 +03:00 [INF] Logger has been configured.
+2024-06-08 01:19:45.290 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 01:19:45.449 +03:00 [FTL] Application startup exception
+System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' property must be set in 'UseExceptionHandler()'. Alternatively, set one of the aforementioned properties in 'Startup.ConfigureServices' as follows: 'services.AddExceptionHandler(options => { ... });' or configure to generate a 'ProblemDetails' response in 'service.AddProblemDetails()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener, IEnumerable`1 exceptionHandlers, IMeterFactory meterFactory, IProblemDetailsService problemDetailsService)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2024-06-08 01:19:45.509 +03:00 [ERR] Hosting failed to start
+System.InvalidOperationException: An error occurred when configuring the exception handler middleware. Either the 'ExceptionHandlingPath' or the 'ExceptionHandler' property must be set in 'UseExceptionHandler()'. Alternatively, set one of the aforementioned properties in 'Startup.ConfigureServices' as follows: 'services.AddExceptionHandler(options => { ... });' or configure to generate a 'ProblemDetails' response in 'service.AddProblemDetails()'.
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener, IEnumerable`1 exceptionHandlers, IMeterFactory meterFactory, IProblemDetailsService problemDetailsService)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IOptions`1 options, DiagnosticListener diagnosticListener)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-06-08 01:23:36.769 +03:00 [INF] Logger has been configured.
+2024-06-08 01:23:37.468 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 01:23:37.922 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 01:23:37.923 +03:00 [INF] Hosting environment: Development
+2024-06-08 01:23:37.923 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 01:23:38.349 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger - null null
+2024-06-08 01:23:38.764 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 01:23:38.766 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger - 301 null null 425.7725ms
+2024-06-08 01:23:38.890 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 126.8325ms
+2024-06-08 01:23:38.920 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/swagger-ui.css - null null
+2024-06-08 01:23:38.920 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/swagger-ui-bundle.js - null null
+2024-06-08 01:23:38.920 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/swagger-ui-standalone-preset.js - null null
+2024-06-08 01:23:38.926 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 01:23:38.930 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 01:23:38.934 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 7.1121ms
+2024-06-08 01:23:38.975 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-06-08 01:23:38.975 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-06-08 01:23:38.994 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 74.0148ms
+2024-06-08 01:23:38.995 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/swagger-ui.css - 200 143943 text/css 78.6926ms
+2024-06-08 01:23:38.999 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-06-08 01:23:39.030 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 109.6997ms
+2024-06-08 01:23:39.118 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 188.0257ms
+2024-06-08 01:23:39.296 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 01:23:39.351 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/favicon-32x32.png - null null
+2024-06-08 01:23:39.352 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-06-08 01:23:39.353 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/favicon-32x32.png - 200 628 image/png 1.474ms
+2024-06-08 01:23:39.486 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 190.0694ms
+2024-06-08 01:23:51.709 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/api/Regions/GetAll - null null
+2024-06-08 01:23:51.720 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 01:23:52.880 +03:00 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-06-08 01:23:52.884 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-06-08 01:23:52.887 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/api/Regions/GetAll - 401 null null 1178.2218ms
+2024-06-08 01:24:04.752 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - null null
+2024-06-08 01:24:04.767 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 01:24:04.818 +03:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (EgyptWalks.API).
+2024-06-08 01:24:04.833 +03:00 [INF] Executed action NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API) in 9.7483ms
+2024-06-08 01:24:04.835 +03:00 [INF] Executed endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 01:24:04.916 +03:00 [ERR] a055b743-54de-44f1-ac6a-438cab92bc98 : Unable to resolve service for type 'EgyptWalks.Core.IUnitOfWork' while attempting to activate 'NZWalks.API.Controllers.WalksController'.
+System.InvalidOperationException: Unable to resolve service for type 'EgyptWalks.Core.IUnitOfWork' while attempting to activate 'NZWalks.API.Controllers.WalksController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EgyptWalks.API.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\ASP .NET\EgyptWalks\EgyptWalks.API\Middlewares\ExceptionHandlerMiddleware.cs:line 21
+2024-06-08 01:24:05.009 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - 500 null application/json; charset=utf-8 256.8129ms
+2024-06-08 01:24:32.756 +03:00 [INF] Logger has been configured.
+2024-06-08 01:24:33.256 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 01:24:33.445 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 01:24:33.446 +03:00 [INF] Hosting environment: Development
+2024-06-08 01:24:33.446 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 01:24:33.499 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 01:24:33.810 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 01:24:33.810 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 01:24:33.810 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 309.546ms
+2024-06-08 01:24:33.823 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 12.4242ms
+2024-06-08 01:24:33.881 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.2031ms
+2024-06-08 01:24:34.115 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 01:24:34.303 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 188.8661ms
+2024-06-08 01:24:45.868 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - null null
+2024-06-08 01:24:45.881 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 01:24:45.973 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 01:24:46.005 +03:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (EgyptWalks.API).
+2024-06-08 01:24:46.014 +03:00 [INF] Executed action NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API) in 3.6205ms
+2024-06-08 01:24:46.015 +03:00 [INF] Executed endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 01:24:46.059 +03:00 [ERR] a6cc1857-671d-47c3-a22d-bd320caa8a60 : Unable to resolve service for type 'EgyptWalks.Core.IUnitOfWork' while attempting to activate 'NZWalks.API.Controllers.WalksController'.
+System.InvalidOperationException: Unable to resolve service for type 'EgyptWalks.Core.IUnitOfWork' while attempting to activate 'NZWalks.API.Controllers.WalksController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EgyptWalks.API.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\ASP .NET\EgyptWalks\EgyptWalks.API\Middlewares\ExceptionHandlerMiddleware.cs:line 21
+2024-06-08 01:24:46.113 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - 500 null application/json; charset=utf-8 245.2636ms
+2024-06-08 01:28:52.795 +03:00 [INF] Logger has been configured.
+2024-06-08 01:28:53.549 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 01:28:53.884 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 01:28:53.885 +03:00 [INF] Hosting environment: Development
+2024-06-08 01:28:53.885 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 01:28:53.983 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 01:28:54.358 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 382.7812ms
+2024-06-08 01:28:54.397 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 01:28:54.411 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 01:28:54.423 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 24.8396ms
+2024-06-08 01:28:54.492 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 81.6454ms
+2024-06-08 01:28:54.620 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 01:28:54.820 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 200.703ms
+2024-06-08 01:29:05.291 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - null null
+2024-06-08 01:29:05.314 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 01:29:05.429 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 01:29:05.478 +03:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (EgyptWalks.API).
+2024-06-08 01:33:21.075 +03:00 [INF] Logger has been configured.
+2024-06-08 01:33:44.899 +03:00 [INF] Logger has been configured.
+2024-06-08 01:34:36.478 +03:00 [INF] Logger has been configured.
+2024-06-08 01:34:39.473 +03:00 [INF] Executed DbCommand (644ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [EgyptWalksDb];
+2024-06-08 01:34:39.602 +03:00 [INF] Executed DbCommand (122ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [EgyptWalksDb] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-06-08 01:34:39.631 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-08 01:34:39.700 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-06-08 01:34:39.702 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-06-08 01:34:39.719 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-06-08 01:34:39.736 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-06-08 01:34:39.751 +03:00 [INF] Applying migration '20240607223352_init2'.
+2024-06-08 01:34:39.823 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2024-06-08 01:34:39.827 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [Age] int NOT NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+2024-06-08 01:34:39.830 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Difficulties] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Difficulties] PRIMARY KEY ([Id])
+);
+2024-06-08 01:34:39.835 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Images] (
+    [Id] uniqueidentifier NOT NULL,
+    [FileName] nvarchar(max) NOT NULL,
+    [FileDescription] nvarchar(max) NULL,
+    [FileExtension] nvarchar(max) NOT NULL,
+    [FileSizeInBytes] bigint NOT NULL,
+    [FilePath] nvarchar(max) NOT NULL,
+    CONSTRAINT [PK_Images] PRIMARY KEY ([Id])
+);
+2024-06-08 01:34:39.838 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Regions] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(max) NOT NULL,
+    [Code] nvarchar(max) NOT NULL,
+    [RegionImageUrl] nvarchar(max) NULL,
+    CONSTRAINT [PK_Regions] PRIMARY KEY ([Id])
+);
+2024-06-08 01:34:40.385 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+2024-06-08 01:34:40.392 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2024-06-08 01:34:40.400 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2024-06-08 01:34:40.405 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] nvarchar(450) NOT NULL,
+    [RoleId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2024-06-08 01:34:41.869 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] nvarchar(450) NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2024-06-08 01:34:41.876 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Walks] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(max) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [LengthInKm] float NOT NULL,
+    [WalkImageUrl] nvarchar(max) NULL,
+    [DifficultyId] uniqueidentifier NOT NULL,
+    [RegionId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_Walks] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Walks_Difficulties_DifficultyId] FOREIGN KEY ([DifficultyId]) REFERENCES [Difficulties] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Walks_Regions_RegionId] FOREIGN KEY ([RegionId]) REFERENCES [Regions] ([Id]) ON DELETE CASCADE
+);
+2024-06-08 01:34:41.879 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [FavouriteWalks] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(max) NOT NULL,
+    [WalkId] uniqueidentifier NOT NULL,
+    [ApplicationUserId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_FavouriteWalks] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_FavouriteWalks_AspNetUsers_ApplicationUserId] FOREIGN KEY ([ApplicationUserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_FavouriteWalks_Walks_WalkId] FOREIGN KEY ([WalkId]) REFERENCES [Walks] ([Id]) ON DELETE CASCADE
+);
+2024-06-08 01:34:43.116 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reviews] (
+    [Id] uniqueidentifier NOT NULL,
+    [Comment] nvarchar(max) NULL,
+    [Rate] int NOT NULL,
+    [WalkId] uniqueidentifier NOT NULL,
+    [ApplicationUserId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_Reviews] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Reviews_AspNetUsers_ApplicationUserId] FOREIGN KEY ([ApplicationUserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Reviews_Walks_WalkId] FOREIGN KEY ([WalkId]) REFERENCES [Walks] ([Id]) ON DELETE CASCADE
+);
+2024-06-08 01:34:43.121 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+2024-06-08 01:34:43.126 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+2024-06-08 01:34:43.127 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+2024-06-08 01:34:43.130 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+2024-06-08 01:34:43.132 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+2024-06-08 01:34:43.133 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+2024-06-08 01:34:43.136 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+2024-06-08 01:34:44.346 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_FavouriteWalks_ApplicationUserId] ON [FavouriteWalks] ([ApplicationUserId]);
+2024-06-08 01:34:44.348 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_FavouriteWalks_WalkId] ON [FavouriteWalks] ([WalkId]);
+2024-06-08 01:34:44.350 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Reviews_ApplicationUserId] ON [Reviews] ([ApplicationUserId]);
+2024-06-08 01:34:44.351 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Reviews_WalkId] ON [Reviews] ([WalkId]);
+2024-06-08 01:34:44.353 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Walks_DifficultyId] ON [Walks] ([DifficultyId]);
+2024-06-08 01:34:44.355 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Walks_RegionId] ON [Walks] ([RegionId]);
+2024-06-08 01:34:44.365 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240607223352_init2', N'8.0.6');
+2024-06-08 01:36:35.534 +03:00 [INF] Logger has been configured.
+2024-06-08 01:36:36.257 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 01:36:36.532 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 01:36:36.532 +03:00 [INF] Hosting environment: Development
+2024-06-08 01:36:36.533 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 01:36:36.626 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 01:36:36.998 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 01:36:37.000 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 01:36:37.004 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 382.2967ms
+2024-06-08 01:36:37.006 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 6.5422ms
+2024-06-08 01:36:37.079 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 79.0607ms
+2024-06-08 01:36:37.143 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 01:36:37.334 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 191.1515ms
+2024-06-08 01:36:48.787 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - null null
+2024-06-08 01:36:48.799 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 01:36:48.907 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 01:36:48.954 +03:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (EgyptWalks.API).
+2024-06-08 01:38:53.446 +03:00 [INF] Logger has been configured.
+2024-06-08 01:38:53.967 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 01:38:54.156 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 01:38:54.157 +03:00 [INF] Hosting environment: Development
+2024-06-08 01:38:54.157 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 01:38:54.215 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 01:38:54.542 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 01:38:54.542 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 01:38:54.544 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 334.6402ms
+2024-06-08 01:38:54.549 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 6.1926ms
+2024-06-08 01:38:54.629 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 87.2467ms
+2024-06-08 01:38:54.740 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 01:38:55.149 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 408.2582ms
+2024-06-08 01:39:04.353 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - null null
+2024-06-08 01:39:04.365 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 01:39:04.439 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 01:39:04.470 +03:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (EgyptWalks.API).
+2024-06-08 01:42:40.896 +03:00 [INF] Logger has been configured.
+2024-06-08 01:42:41.632 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 01:42:41.982 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 01:42:41.983 +03:00 [INF] Hosting environment: Development
+2024-06-08 01:42:41.983 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 01:42:42.072 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 01:42:42.405 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 01:42:42.422 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 01:42:42.423 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 325.3447ms
+2024-06-08 01:42:42.430 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 24.2358ms
+2024-06-08 01:42:42.479 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.6726ms
+2024-06-08 01:42:42.565 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 01:42:42.762 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 197.6267ms
+2024-06-08 01:42:55.020 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - null null
+2024-06-08 01:42:55.036 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 01:42:55.141 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 01:42:55.192 +03:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (EgyptWalks.API).
+2024-06-08 01:49:16.475 +03:00 [INF] Logger has been configured.
+2024-06-08 01:49:17.512 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 01:49:17.942 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 01:49:17.943 +03:00 [INF] Hosting environment: Development
+2024-06-08 01:49:17.943 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 01:49:18.091 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 01:49:18.707 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 01:49:18.707 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 01:49:18.710 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 631.7607ms
+2024-06-08 01:49:18.717 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 8.764ms
+2024-06-08 01:49:18.810 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.2983ms
+2024-06-08 01:49:18.969 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 01:49:19.310 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 341.0427ms
+2024-06-08 01:50:14.686 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:40754/api/Walks/Create - application/json 209
+2024-06-08 01:50:14.737 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 01:50:14.922 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.Create (EgyptWalks.API)'
+2024-06-08 01:50:14.996 +03:00 [INF] Route matched with {action = "Create", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(EgyptWalks.Core.DTOs.AddWalkDTO) on controller NZWalks.API.Controllers.WalksController (EgyptWalks.API).
+2024-06-08 01:50:46.954 +03:00 [INF] Logger has been configured.
+2024-06-08 01:50:47.930 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 01:50:48.247 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 01:50:48.248 +03:00 [INF] Hosting environment: Development
+2024-06-08 01:50:48.248 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 01:50:48.345 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 01:50:48.955 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 01:50:48.955 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 01:50:48.913 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 577.4402ms
+2024-06-08 01:50:48.968 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 12.7174ms
+2024-06-08 01:50:49.055 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 100.2573ms
+2024-06-08 01:50:49.173 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 01:50:49.490 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 317.2233ms
+2024-06-08 01:51:10.974 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - null null
+2024-06-08 01:51:11.030 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 01:51:11.180 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 01:51:11.240 +03:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (EgyptWalks.API).
+2024-06-08 01:51:34.899 +03:00 [INF] Executed action NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API) in 23652.8101ms
+2024-06-08 01:51:34.908 +03:00 [INF] Executed endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 01:52:11.191 +03:00 [INF] Logger has been configured.
+2024-06-08 01:52:12.146 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 01:52:12.779 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 01:52:12.796 +03:00 [INF] Hosting environment: Development
+2024-06-08 01:52:12.814 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 01:52:12.897 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 01:52:13.641 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 01:52:13.642 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 726.4912ms
+2024-06-08 01:52:13.661 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 16.2603ms
+2024-06-08 01:52:13.662 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 01:52:13.917 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 255.8015ms
+2024-06-08 01:52:14.042 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 01:52:14.281 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 239.276ms
+2024-06-08 01:52:24.513 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - null null
+2024-06-08 01:52:24.541 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 01:52:24.690 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 01:52:24.735 +03:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (EgyptWalks.API).
+2024-06-08 02:05:16.321 +03:00 [INF] Logger has been configured.
+2024-06-08 02:05:17.325 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 02:05:17.588 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 02:05:17.589 +03:00 [INF] Hosting environment: Development
+2024-06-08 02:05:17.590 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 02:05:17.653 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 02:05:18.236 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 02:05:18.236 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 02:05:18.239 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 595.6368ms
+2024-06-08 02:05:18.251 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 13.6928ms
+2024-06-08 02:05:18.336 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 99.9437ms
+2024-06-08 02:05:18.431 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 02:05:18.749 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 318.3893ms
+2024-06-08 02:05:27.274 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - null null
+2024-06-08 02:05:27.293 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 02:05:27.467 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 02:05:27.527 +03:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (EgyptWalks.API).
+2024-06-08 17:54:38.891 +03:00 [INF] Logger has been configured.
+2024-06-08 17:54:41.676 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 17:54:42.425 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 17:54:42.426 +03:00 [INF] Hosting environment: Development
+2024-06-08 17:54:42.427 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 17:54:42.735 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 17:54:45.069 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 17:54:45.074 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 2366.015ms
+2024-06-08 17:54:45.082 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 9.5679ms
+2024-06-08 17:54:45.107 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 17:54:45.423 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 315.6951ms
+2024-06-08 17:54:45.900 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 17:54:46.350 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 449.213ms
+2024-06-08 17:54:59.370 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - null null
+2024-06-08 17:54:59.435 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 17:54:59.850 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 17:55:00.003 +03:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (EgyptWalks.API).
+2024-06-08 17:55:05.529 +03:00 [INF] Executed action NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API) in 5507.8999ms
+2024-06-08 17:55:05.544 +03:00 [INF] Executed endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 17:57:01.099 +03:00 [INF] Logger has been configured.
+2024-06-08 17:58:07.707 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 17:58:08.616 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 17:58:08.617 +03:00 [INF] Hosting environment: Development
+2024-06-08 17:58:08.618 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 17:58:08.986 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 17:58:09.946 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 17:58:09.946 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 17:58:09.947 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 974.3748ms
+2024-06-08 17:58:09.958 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 11.4941ms
+2024-06-08 17:58:10.059 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 113.482ms
+2024-06-08 17:58:10.545 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 17:58:10.893 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 347.3817ms
+2024-06-08 17:58:19.897 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - null null
+2024-06-08 17:58:19.970 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 17:58:20.321 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 17:58:20.503 +03:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (EgyptWalks.API).
+2024-06-08 17:58:21.142 +03:00 [INF] Executed action NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API) in 625.8197ms
+2024-06-08 17:58:21.154 +03:00 [INF] Executed endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 17:58:21.204 +03:00 [ERR] d7fec1b9-d5ad-41e3-ab50-67cca9eb818c : No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.
+System.InvalidOperationException: No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at NZWalks.API.Controllers.WalksController.GetAll(String filterOn, String filterQuery, String sortBy, Nullable`1 isAscending, Int32 pageNumber, Int32 pageSize) in D:\ASP .NET\EgyptWalks\EgyptWalks.API\Controllers\WalksController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EgyptWalks.API.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\ASP .NET\EgyptWalks\EgyptWalks.API\Middlewares\ExceptionHandlerMiddleware.cs:line 21
+2024-06-08 17:59:44.772 +03:00 [ERR] Connection ID "18302628908719145157", Request ID "800000c6-0005-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at EgyptWalks.DAL.UnitOfWork.Dispose() in D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\UnitOfWork.cs:line 33
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.DisposeAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.Features.RequestServicesFeature.<DisposeAsync>g__Awaited|9_0(RequestServicesFeature servicesFeature, ValueTask vt)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContext.FireOnCompleted()
+2024-06-08 17:59:44.794 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - 500 null application/json; charset=utf-8 84897.7163ms
+2024-06-08 18:01:52.716 +03:00 [INF] Logger has been configured.
+2024-06-08 18:01:54.810 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 18:01:55.587 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 18:01:55.589 +03:00 [INF] Hosting environment: Development
+2024-06-08 18:01:55.589 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 18:01:56.456 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 18:01:57.561 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 18:01:57.541 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 1147.9751ms
+2024-06-08 18:01:57.578 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 18:01:57.592 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 26.4376ms
+2024-06-08 18:01:57.749 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 170.8232ms
+2024-06-08 18:01:58.078 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 18:01:58.843 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 764.7403ms
+2024-06-08 18:02:07.047 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - null null
+2024-06-08 18:02:07.139 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 18:02:07.421 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 18:02:07.747 +03:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (EgyptWalks.API).
+2024-06-08 18:04:41.793 +03:00 [INF] Logger has been configured.
+2024-06-08 18:04:42.867 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 18:04:43.189 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 18:04:43.210 +03:00 [INF] Hosting environment: Development
+2024-06-08 18:04:43.212 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 18:04:43.304 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 18:04:43.818 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 18:04:43.818 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 18:04:43.822 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 496.0643ms
+2024-06-08 18:04:43.833 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 13.5229ms
+2024-06-08 18:04:43.930 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 112.6781ms
+2024-06-08 18:04:44.037 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 18:04:44.357 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 319.5211ms
+2024-06-08 18:04:52.551 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - null null
+2024-06-08 18:04:52.572 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 18:04:52.750 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 18:04:52.819 +03:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (EgyptWalks.API).
+2024-06-08 18:04:53.228 +03:00 [INF] Executed action NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API) in 400.1002ms
+2024-06-08 18:04:53.232 +03:00 [INF] Executed endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 18:04:53.275 +03:00 [ERR] 20c0c71f-3d16-4ed2-a710-d08073a1f4d8 : No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.
+System.InvalidOperationException: No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at NZWalks.API.Controllers.WalksController.GetAll(String filterOn, String filterQuery, String sortBy, Nullable`1 isAscending, Int32 pageNumber, Int32 pageSize) in D:\ASP .NET\EgyptWalks\EgyptWalks.API\Controllers\WalksController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EgyptWalks.API.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\ASP .NET\EgyptWalks\EgyptWalks.API\Middlewares\ExceptionHandlerMiddleware.cs:line 21
+2024-06-08 18:06:36.798 +03:00 [INF] Logger has been configured.
+2024-06-08 18:08:43.082 +03:00 [INF] Logger has been configured.
+2024-06-08 18:08:44.121 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 18:08:44.435 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 18:08:44.450 +03:00 [INF] Hosting environment: Development
+2024-06-08 18:08:44.450 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 18:08:44.540 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 18:08:45.513 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 18:08:45.513 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 18:08:45.524 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 9.6614ms
+2024-06-08 18:08:45.519 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 992.9771ms
+2024-06-08 18:08:45.606 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 93.124ms
+2024-06-08 18:08:45.751 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 18:08:46.086 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 334.402ms
+2024-06-08 18:10:11.396 +03:00 [INF] Logger has been configured.
+2024-06-08 18:16:15.217 +03:00 [INF] Logger has been configured.
+2024-06-08 18:16:16.195 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 18:16:16.633 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 18:16:16.635 +03:00 [INF] Hosting environment: Development
+2024-06-08 18:16:16.635 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 18:16:16.793 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 18:16:17.397 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 18:16:17.397 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 18:16:17.398 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 583.289ms
+2024-06-08 18:16:17.412 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 13.0781ms
+2024-06-08 18:16:17.486 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 88.9277ms
+2024-06-08 18:16:17.604 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 18:16:17.912 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 307.4144ms
+2024-06-08 18:16:30.336 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - null null
+2024-06-08 18:16:30.360 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 18:16:30.558 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 18:16:30.633 +03:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (EgyptWalks.API).
+2024-06-08 18:16:31.123 +03:00 [INF] Executed action NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API) in 476.472ms
+2024-06-08 18:16:31.127 +03:00 [INF] Executed endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 18:16:31.174 +03:00 [ERR] 48fc2590-5074-4443-ad9d-83640dcc25ce : No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.
+System.InvalidOperationException: No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Collections.Generic.IEnumerable<TEntity>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at NZWalks.API.Controllers.WalksController.GetAll(String filterOn, String filterQuery, String sortBy, Nullable`1 isAscending, Int32 pageNumber, Int32 pageSize) in D:\ASP .NET\EgyptWalks\EgyptWalks.API\Controllers\WalksController.cs:line 31
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at EgyptWalks.API.Middlewares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\ASP .NET\EgyptWalks\EgyptWalks.API\Middlewares\ExceptionHandlerMiddleware.cs:line 21
+2024-06-08 18:18:31.071 +03:00 [INF] Logger has been configured.
+2024-06-08 18:18:32.010 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 18:18:32.383 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 18:18:32.384 +03:00 [INF] Hosting environment: Development
+2024-06-08 18:18:32.400 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 18:18:32.498 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 18:18:33.082 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 18:18:33.084 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 18:18:33.084 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 596.7012ms
+2024-06-08 18:18:33.104 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 20.6507ms
+2024-06-08 18:18:33.203 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 119.2491ms
+2024-06-08 18:18:33.341 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 18:18:33.628 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 286.9509ms
+2024-06-08 18:18:42.505 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - null null
+2024-06-08 18:18:42.523 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 18:18:42.691 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 18:18:42.750 +03:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (EgyptWalks.API).
+2024-06-08 18:45:38.221 +03:00 [INF] Logger has been configured.
+2024-06-08 18:45:39.405 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 18:45:39.903 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 18:45:39.905 +03:00 [INF] Hosting environment: Development
+2024-06-08 18:45:39.905 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 18:45:40.053 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 18:45:40.675 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 635.9683ms
+2024-06-08 18:45:40.728 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 18:45:40.729 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 18:45:40.741 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 18.7906ms
+2024-06-08 18:45:40.904 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 175.3071ms
+2024-06-08 18:45:41.041 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 18:45:41.447 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 405.5978ms
+2024-06-08 18:45:54.889 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - null null
+2024-06-08 18:45:54.913 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 18:45:55.080 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 18:45:55.157 +03:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NZWalks.API.Controllers.WalksController (EgyptWalks.API).
+2024-06-08 18:45:58.256 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-06-08 18:45:58.257 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-06-08 18:46:00.676 +03:00 [INF] Executed DbCommand (326ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Description], [t].[DifficultyId], [t].[LengthInKm], [t].[Name], [t].[RegionId], [t].[WalkImageUrl], [d].[Id], [d].[Name], [r].[Id], [r].[Code], [r].[Name], [r].[RegionImageUrl]
+FROM (
+    SELECT [w].[Id], [w].[Description], [w].[DifficultyId], [w].[LengthInKm], [w].[Name], [w].[RegionId], [w].[WalkImageUrl]
+    FROM [Walks] AS [w]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Difficulties] AS [d] ON [t].[DifficultyId] = [d].[Id]
+INNER JOIN [Regions] AS [r] ON [t].[RegionId] = [r].[Id]
+2024-06-08 18:46:00.765 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[EgyptWalks.Core.DTOs.WalkDTO, EgyptWalks.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-08 18:46:00.816 +03:00 [INF] Executed action NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API) in 5646.7572ms
+2024-06-08 18:46:00.818 +03:00 [INF] Executed endpoint 'NZWalks.API.Controllers.WalksController.GetAll (EgyptWalks.API)'
+2024-06-08 18:46:00.833 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/api/Walks/GetAll?pageNumber=1&pageSize=1000 - 200 null application/json; charset=utf-8 5944.4394ms
+2024-06-08 22:50:18.354 +03:00 [INF] Logger has been configured.
+2024-06-08 22:50:21.984 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 22:50:24.041 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 22:50:24.042 +03:00 [INF] Hosting environment: Development
+2024-06-08 22:50:24.043 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 22:50:24.674 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 22:50:25.545 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 887.7048ms
+2024-06-08 22:50:25.587 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 22:50:25.590 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 22:50:25.602 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 11.8848ms
+2024-06-08 22:50:25.702 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 112.5271ms
+2024-06-08 22:50:25.809 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 22:50:26.106 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 296.7597ms
+2024-06-08 22:51:25.330 +03:00 [INF] Logger has been configured.
+2024-06-08 22:51:26.475 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 22:51:26.973 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 22:51:26.974 +03:00 [INF] Hosting environment: Development
+2024-06-08 22:51:26.974 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 22:51:27.165 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 22:51:27.900 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 22:51:27.900 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 22:51:27.902 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 755.5937ms
+2024-06-08 22:51:27.911 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 9.667ms
+2024-06-08 22:51:28.048 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 148.3836ms
+2024-06-08 22:51:28.154 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 22:51:28.530 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 375.4667ms
+2024-06-08 22:53:07.007 +03:00 [INF] Logger has been configured.
+2024-06-08 22:53:09.148 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 22:53:10.007 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 22:53:10.008 +03:00 [INF] Hosting environment: Development
+2024-06-08 22:53:10.009 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 22:53:10.303 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 22:53:11.040 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 22:53:11.046 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 756.7803ms
+2024-06-08 22:53:11.053 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 10.4677ms
+2024-06-08 22:53:11.108 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 22:53:11.242 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 134.3751ms
+2024-06-08 22:53:11.414 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 22:53:11.689 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 275.8519ms
+2024-06-08 22:53:49.609 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:40754/api/Images - multipart/form-data; boundary=----WebKitFormBoundaryYjGuSKPHH3NWyPB2 272919
+2024-06-08 22:53:49.708 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 22:53:53.750 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.ImagesController.UploadImage (EgyptWalks.API)'
+2024-06-08 22:53:53.949 +03:00 [INF] Route matched with {action = "UploadImage", controller = "Images"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadImage(EgyptWalks.Core.DTOs.ImageUploadRequestDTO) on controller NZWalks.API.Controllers.ImagesController (EgyptWalks.API).
+2024-06-08 22:57:05.421 +03:00 [INF] Logger has been configured.
+2024-06-08 22:57:06.392 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 22:57:06.774 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 22:57:06.775 +03:00 [INF] Hosting environment: Development
+2024-06-08 22:57:06.776 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 22:57:06.894 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 22:57:07.506 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 22:57:07.512 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 22:57:07.507 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 623.3824ms
+2024-06-08 22:57:07.522 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 14.1286ms
+2024-06-08 22:57:07.618 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 105.6497ms
+2024-06-08 22:57:07.766 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 22:57:08.048 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 281.6815ms
+2024-06-08 22:57:34.719 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:40754/api/Images - multipart/form-data; boundary=----WebKitFormBoundaryxxGI1AONXZS31UmX 272916
+2024-06-08 22:57:34.765 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 22:57:34.901 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.ImagesController.UploadImage (EgyptWalks.API)'
+2024-06-08 22:57:34.961 +03:00 [INF] Route matched with {action = "UploadImage", controller = "Images"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadImage(EgyptWalks.Core.DTOs.ImageUploadRequestDTO) on controller NZWalks.API.Controllers.ImagesController (EgyptWalks.API).
+2024-06-08 23:03:10.807 +03:00 [INF] Logger has been configured.
+2024-06-08 23:03:11.875 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 23:03:12.248 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 23:03:12.250 +03:00 [INF] Hosting environment: Development
+2024-06-08 23:03:12.250 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 23:03:12.370 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 23:03:13.018 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 664.0079ms
+2024-06-08 23:03:13.029 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 23:03:13.030 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 23:03:13.042 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 11.7177ms
+2024-06-08 23:03:13.160 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 129.6079ms
+2024-06-08 23:03:13.272 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 23:03:13.553 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 281.6419ms
+2024-06-08 23:03:28.595 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:40754/api/Images - multipart/form-data; boundary=----WebKitFormBoundarymMo0AT4ivYTHPLGf 272914
+2024-06-08 23:03:28.617 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 23:03:28.808 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.ImagesController.UploadImage (EgyptWalks.API)'
+2024-06-08 23:03:28.874 +03:00 [INF] Route matched with {action = "UploadImage", controller = "Images"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadImage(EgyptWalks.Core.DTOs.ImageUploadRequestDTO) on controller NZWalks.API.Controllers.ImagesController (EgyptWalks.API).
+2024-06-08 23:10:18.088 +03:00 [INF] Logger has been configured.
+2024-06-08 23:10:19.096 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 23:10:19.459 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 23:10:19.473 +03:00 [INF] Hosting environment: Development
+2024-06-08 23:10:19.474 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 23:10:19.620 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 23:10:20.191 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 23:10:20.191 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 23:10:20.193 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 602.924ms
+2024-06-08 23:10:20.202 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 10.2304ms
+2024-06-08 23:10:20.299 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 108.2739ms
+2024-06-08 23:10:20.439 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 23:10:20.738 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 299.4364ms
+2024-06-08 23:10:44.177 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:40754/api/Images - multipart/form-data; boundary=----WebKitFormBoundary2HvtW52HWVjDgBxy 272914
+2024-06-08 23:10:44.238 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 23:10:44.380 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.ImagesController.UploadImage (EgyptWalks.API)'
+2024-06-08 23:10:44.458 +03:00 [INF] Route matched with {action = "UploadImage", controller = "Images"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadImage(EgyptWalks.Core.DTOs.ImageUploadRequestDTO) on controller NZWalks.API.Controllers.ImagesController (EgyptWalks.API).
+2024-06-08 23:30:14.483 +03:00 [INF] Logger has been configured.
+2024-06-08 23:30:15.206 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 23:30:15.422 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 23:30:15.423 +03:00 [INF] Hosting environment: Development
+2024-06-08 23:30:15.423 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 23:30:15.493 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 23:30:15.935 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 23:30:15.935 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 23:30:15.937 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 448.9894ms
+2024-06-08 23:30:15.943 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 6.6909ms
+2024-06-08 23:30:16.013 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 77.9897ms
+2024-06-08 23:30:16.104 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 23:30:16.336 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 231.8339ms
+2024-06-08 23:30:33.410 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:40754/api/Images - multipart/form-data; boundary=----WebKitFormBoundaryJqv75GxyBbLG5npq 272916
+2024-06-08 23:30:33.421 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 23:30:33.530 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.ImagesController.UploadImage (EgyptWalks.API)'
+2024-06-08 23:30:33.562 +03:00 [INF] Route matched with {action = "UploadImage", controller = "Images"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadImage(EgyptWalks.Core.DTOs.ImageUploadRequestDTO) on controller NZWalks.API.Controllers.ImagesController (EgyptWalks.API).
+2024-06-08 23:32:34.145 +03:00 [INF] Logger has been configured.
+2024-06-08 23:32:34.667 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 23:32:34.860 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 23:32:34.861 +03:00 [INF] Hosting environment: Development
+2024-06-08 23:32:34.861 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 23:32:34.919 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 23:32:35.244 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 23:32:35.244 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 23:32:35.226 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 309.9199ms
+2024-06-08 23:32:35.250 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 5.4945ms
+2024-06-08 23:32:35.295 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.7427ms
+2024-06-08 23:32:35.425 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 23:32:35.599 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 174.2375ms
+2024-06-08 23:33:02.629 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:40754/api/Images - multipart/form-data; boundary=----WebKitFormBoundary3yp7GKEhnLvHpw7A 272916
+2024-06-08 23:33:02.648 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 23:33:02.722 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.ImagesController.UploadImage (EgyptWalks.API)'
+2024-06-08 23:33:02.750 +03:00 [INF] Route matched with {action = "UploadImage", controller = "Images"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadImage(EgyptWalks.Core.DTOs.ImageUploadRequestDTO) on controller NZWalks.API.Controllers.ImagesController (EgyptWalks.API).
+2024-06-08 23:45:53.034 +03:00 [INF] Logger has been configured.
+2024-06-08 23:45:53.563 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 23:45:53.838 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 23:45:53.839 +03:00 [INF] Hosting environment: Development
+2024-06-08 23:45:53.839 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 23:45:53.964 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 23:45:54.301 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 23:45:54.301 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 23:45:54.289 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 336.468ms
+2024-06-08 23:45:54.311 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 8.3666ms
+2024-06-08 23:45:54.356 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.7194ms
+2024-06-08 23:45:54.435 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 23:45:54.603 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 168.4449ms
+2024-06-08 23:46:22.861 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:40754/api/Images - multipart/form-data; boundary=----WebKitFormBoundary0CzYVazjSleGENdk 272917
+2024-06-08 23:46:22.879 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 23:46:22.981 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.ImagesController.UploadImage (EgyptWalks.API)'
+2024-06-08 23:46:23.012 +03:00 [INF] Route matched with {action = "UploadImage", controller = "Images"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadImage(EgyptWalks.Core.DTOs.ImageUploadRequestDTO) on controller NZWalks.API.Controllers.ImagesController (EgyptWalks.API).
+2024-06-08 23:50:48.542 +03:00 [INF] Logger has been configured.
+2024-06-08 23:54:14.135 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-08 23:54:24.903 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-08 23:54:24.913 +03:00 [INF] Hosting environment: Development
+2024-06-08 23:54:24.913 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-08 23:54:25.027 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-08 23:54:25.644 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-08 23:54:25.624 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 610.6684ms
+2024-06-08 23:54:25.659 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 12.9559ms
+2024-06-08 23:54:25.694 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-08 23:54:25.856 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 162.3998ms
+2024-06-08 23:54:26.002 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-08 23:54:26.344 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 341.9317ms
+2024-06-08 23:54:52.354 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:40754/api/Images - multipart/form-data; boundary=----WebKitFormBoundaryB70yrEHV4zRa2eSR 272915
+2024-06-08 23:54:52.386 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-06-08 23:54:52.541 +03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.ImagesController.UploadImage (EgyptWalks.API)'
+2024-06-08 23:54:52.600 +03:00 [INF] Route matched with {action = "UploadImage", controller = "Images"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadImage(EgyptWalks.Core.DTOs.ImageUploadRequestDTO) on controller NZWalks.API.Controllers.ImagesController (EgyptWalks.API).

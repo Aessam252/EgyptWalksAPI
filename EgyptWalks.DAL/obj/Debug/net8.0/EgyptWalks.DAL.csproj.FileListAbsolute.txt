@@ -1,0 +1,34 @@
+D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\bin\Debug\net8.0\EgyptWalks.DAL.deps.json
+D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\bin\Debug\net8.0\EgyptWalks.DAL.runtimeconfig.json
+D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\bin\Debug\net8.0\EgyptWalks.DAL.dll
+D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\bin\Debug\net8.0\EgyptWalks.DAL.pdb
+D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\bin\Debug\net8.0\EgyptWalks.Core.dll
+D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\bin\Debug\net8.0\EgyptWalks.Core.pdb
+D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWalks.DAL.csproj.AssemblyReference.cache
+D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWalks.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWalks.DAL.AssemblyInfoInputs.cache
+D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWalks.DAL.AssemblyInfo.cs
+D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWalks.DAL.csproj.CoreCompileInputs.cache
+D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWal.C4B4C179.Up2Date
+D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWalks.DAL.dll
+D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\refint\EgyptWalks.DAL.dll
+D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWalks.DAL.pdb
+D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWalks.DAL.genruntimeconfig.cache
+D:\ASP .NET\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\ref\EgyptWalks.DAL.dll
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.DAL\bin\Debug\net8.0\EgyptWalks.DAL.deps.json
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.DAL\bin\Debug\net8.0\EgyptWalks.DAL.runtimeconfig.json
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.DAL\bin\Debug\net8.0\EgyptWalks.DAL.dll
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.DAL\bin\Debug\net8.0\EgyptWalks.DAL.pdb
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.DAL\bin\Debug\net8.0\EgyptWalks.Core.dll
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.DAL\bin\Debug\net8.0\EgyptWalks.Core.pdb
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWalks.DAL.csproj.AssemblyReference.cache
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWalks.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWalks.DAL.AssemblyInfoInputs.cache
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWalks.DAL.AssemblyInfo.cs
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWalks.DAL.csproj.CoreCompileInputs.cache
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWal.C4B4C179.Up2Date
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWalks.DAL.dll
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\refint\EgyptWalks.DAL.dll
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWalks.DAL.pdb
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\EgyptWalks.DAL.genruntimeconfig.cache
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.DAL\obj\Debug\net8.0\ref\EgyptWalks.DAL.dll

@@ -1,0 +1,6 @@
+@EgyptWalks.API_HostAddress = http://localhost:5249
+
+GET {{EgyptWalks.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

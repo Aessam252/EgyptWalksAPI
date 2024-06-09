@@ -1,0 +1,14 @@
+2024-06-10 00:00:17.658 +03:00 [INF] Logger has been configured.
+2024-06-10 00:01:27.762 +03:00 [INF] Logger has been configured.
+2024-06-10 00:01:30.717 +03:00 [INF] User profile is available. Using 'C:\Users\745 G5\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-10 00:01:31.562 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-10 00:01:31.563 +03:00 [INF] Hosting environment: Development
+2024-06-10 00:01:31.564 +03:00 [INF] Content root path: D:\ASP .NET\EgyptWalks\EgyptWalks.API
+2024-06-10 00:01:32.180 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/index.html - null null
+2024-06-10 00:01:32.998 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/index.html - 200 null text/html;charset=utf-8 820.3644ms
+2024-06-10 00:01:33.003 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-10 00:01:33.014 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/_vs/browserLink - null null
+2024-06-10 00:01:33.020 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 14.8567ms
+2024-06-10 00:01:33.162 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/_vs/browserLink - 200 null text/javascript; charset=UTF-8 147.4403ms
+2024-06-10 00:01:33.294 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - null null
+2024-06-10 00:01:33.568 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:40754/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 273.9109ms

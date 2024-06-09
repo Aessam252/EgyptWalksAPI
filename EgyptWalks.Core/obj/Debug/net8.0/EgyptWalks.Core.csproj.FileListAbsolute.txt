@@ -1,0 +1,24 @@
+D:\ASP .NET\EgyptWalks\EgyptWalks.Core\bin\Debug\net8.0\EgyptWalks.Core.deps.json
+D:\ASP .NET\EgyptWalks\EgyptWalks.Core\bin\Debug\net8.0\EgyptWalks.Core.dll
+D:\ASP .NET\EgyptWalks\EgyptWalks.Core\bin\Debug\net8.0\EgyptWalks.Core.pdb
+D:\ASP .NET\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\EgyptWalks.Core.csproj.AssemblyReference.cache
+D:\ASP .NET\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\EgyptWalks.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP .NET\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\EgyptWalks.Core.AssemblyInfoInputs.cache
+D:\ASP .NET\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\EgyptWalks.Core.AssemblyInfo.cs
+D:\ASP .NET\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\EgyptWalks.Core.csproj.CoreCompileInputs.cache
+D:\ASP .NET\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\EgyptWalks.Core.dll
+D:\ASP .NET\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\refint\EgyptWalks.Core.dll
+D:\ASP .NET\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\EgyptWalks.Core.pdb
+D:\ASP .NET\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\ref\EgyptWalks.Core.dll
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.Core\bin\Debug\net8.0\EgyptWalks.Core.deps.json
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.Core\bin\Debug\net8.0\EgyptWalks.Core.dll
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.Core\bin\Debug\net8.0\EgyptWalks.Core.pdb
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\EgyptWalks.Core.csproj.AssemblyReference.cache
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\EgyptWalks.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\EgyptWalks.Core.AssemblyInfoInputs.cache
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\EgyptWalks.Core.AssemblyInfo.cs
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\EgyptWalks.Core.csproj.CoreCompileInputs.cache
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\EgyptWalks.Core.dll
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\refint\EgyptWalks.Core.dll
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\EgyptWalks.Core.pdb
+D:\ASP .NET ITI\EgyptWalks\EgyptWalks.Core\obj\Debug\net8.0\ref\EgyptWalks.Core.dll
