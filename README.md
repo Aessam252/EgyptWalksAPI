@@ -1,8 +1,7 @@
 # Egypt Walks API
 The Egypt Walks API is a comprehensive ASP.NET Core Web API project designed to manage and explore walking trails across Egypt. This project is built with best practices in mind, incorporating several advanced features to ensure robustness, security, and maintainability.
 
-Features
-Models:
+### Models:
 
 - Walk: Represents a walking trail.
 - Region: Defines the region where a walk is located.
